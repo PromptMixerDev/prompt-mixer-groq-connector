@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "builtin-modules": "^3.3.0",
-    "esbuild": "^0.21.2",
+    "esbuild": "^0.21.3",
     "groq-sdk": "^0.3.3"
   },
   "devDependencies": {
