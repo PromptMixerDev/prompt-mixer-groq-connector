@@ -1,12 +1,24 @@
 export const config = {
   connectorName: 'Groq Connector',
-  connectorVersion: '1.0.0',
+  connectorVersion: '1.0.1',
   models: [
-    'llama3-8b-8192',
+    // Production Models
+    'distil-whisper-large-v3-en',
+    'gemma2-9b-it',
+    'llama-3.3-70b-versatile',
+    'llama-3.1-8b-instant',
+    'llama-guard-3-8b',
     'llama3-70b-8192',
-    'llama2-70b-4096',
+    'llama3-8b-8192',
     'mixtral-8x7b-32768',
-    'gemma-7b-it'
+    // Preview Models
+    'deepseek-r1-distill-llama-70b-specdec',
+    'deepseek-r1-distill-llama-70b',
+    'llama-3.3-70b-specdec',
+    'llama-3.2-1b-preview',
+    'llama-3.2-3b-preview',
+    'llama-3.2-11b-vision-preview',
+    'llama-3.2-90b-vision-preview'
   ],
   description:
     'This is a connector for Prompt Mixer that allows you to access the Groq API and utilize their powerful LLM models directly within Prompt Mixer.',

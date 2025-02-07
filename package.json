@@ -1,6 +1,6 @@
 {
   "name": "prompt-mixer-groq-connector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is a connector for Prompt Mixer that allows you to access the Groq API and utilize their powerful LLM models directly within Prompt Mixer.",
   "type": "module",
   "main": "main.js",
@@ -25,6 +25,7 @@
     "eslint": "^9.19.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
   }
 }
