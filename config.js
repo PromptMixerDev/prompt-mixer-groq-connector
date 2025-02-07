@@ -3,6 +3,7 @@ export const config = {
   connectorVersion: '1.0.1',
   models: [
     // Production Models
+    'distil-whisper-large-v3-en',
     'gemma2-9b-it',
     'llama-3.3-70b-versatile',
     'llama-3.1-8b-instant',
@@ -11,6 +12,8 @@ export const config = {
     'llama3-8b-8192',
     'mixtral-8x7b-32768',
     // Preview Models
+    'deepseek-r1-distill-llama-70b-specdec',
+    'deepseek-r1-distill-llama-70b',
     'llama-3.3-70b-specdec',
     'llama-3.2-1b-preview',
     'llama-3.2-3b-preview',

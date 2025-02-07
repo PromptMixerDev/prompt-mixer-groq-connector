@@ -1,9 +1,9 @@
 {
   "id": "prompt-mixer-groq-connector",
   "name": "Groq Connector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "0.1.0",
-  "description": "OpenAI Connector leverage the power of advanced AI models provided by OpenAI, such as GPT",
+  "description": "Groq Connector leverage the power of advanced AI models provided by Groq, enabling direct access to Groq's LLM models within Prompt Mixer",
   "author": "Prompt Mixer",
   "authorUrl": "https://promptmixer.dev",
   "fundingUrl": "https://promptmixer.dev/pricing",
