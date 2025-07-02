@@ -19,7 +19,7 @@
   "dependencies": {
     "builtin-modules": "^5.0.0",
     "esbuild": "^0.25.5",
-    "groq-sdk": "^0.25.0"
+    "groq-sdk": "^0.26.0"
   },
   "devDependencies": {
     "eslint": "^9.29.0",
